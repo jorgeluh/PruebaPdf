@@ -448,6 +448,7 @@
     <Content Include="PdfJs\web\standard_fonts\LICENSE_FOXIT" />
     <Content Include="PdfJs\web\standard_fonts\LICENSE_LIBERATION" />
     <Content Include="PdfJs\web\viewer.js.map" />
+    <Content Include="PdfJs\LICENSE" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
