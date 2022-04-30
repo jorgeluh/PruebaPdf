@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Controles\VisorPdf.ascx" />
     <Content Include="Global.asax" />
     <Content Include="Inicio.aspx" />
     <Content Include="PdfJs\build\pdf.js" />
@@ -120,6 +121,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controles\VisorPdf.ascx.cs">
+      <DependentUpon>VisorPdf.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controles\VisorPdf.ascx.designer.cs">
+      <DependentUpon>VisorPdf.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -133,6 +141,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ArchivosPrueba\Archivo1.pdf" />
+    <Content Include="ArchivosPrueba\Archivo2.pdf" />
+    <Content Include="ArchivosPrueba\compressed.tracemonkey-pldi-09.pdf" />
     <None Include="packages.config" />
     <Content Include="PdfJs\build\pdf.js.map" />
     <Content Include="PdfJs\build\pdf.sandbox.js.map" />
@@ -306,7 +317,6 @@
     <Content Include="PdfJs\web\cmaps\UniKS-UTF8-V.bcmap" />
     <Content Include="PdfJs\web\cmaps\V.bcmap" />
     <Content Include="PdfJs\web\cmaps\WP-Symbol.bcmap" />
-    <Content Include="PdfJs\web\compressed.tracemonkey-pldi-09.pdf" />
     <Content Include="PdfJs\web\locale\ach\viewer.properties" />
     <Content Include="PdfJs\web\locale\af\viewer.properties" />
     <Content Include="PdfJs\web\locale\an\viewer.properties" />
