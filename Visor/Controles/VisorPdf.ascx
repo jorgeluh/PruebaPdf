@@ -2,7 +2,7 @@
 <% if (!string.IsNullOrEmpty(this.Archivo))
 {
 %>
-<iframe id="pd-js-viewer" src="/PdfJs/web/viewer.html?file=<%=Archivo%>" title="webviewer" frameborder="0" width="<%=Ancho%>" height="<%=Alto%>"></iframe>
+<iframe id="pd-js-viewer" src="/Pdfjs/web/Visor.aspx?file=<%=Archivo%>" title="webviewer" frameborder="0" width="<%=Ancho%>" height="<%=Alto%>"></iframe>
 <%
 }
 else

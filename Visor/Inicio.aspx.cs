@@ -20,6 +20,7 @@
 
         private void SeleccionarArchivo()
         {
+            this.VisorPdf.PermitirImpresion = this.CheckBoxPermitirImpresion.Checked;
             switch (this.DropDownListArchivo.SelectedValue)
             {
                 case "1":

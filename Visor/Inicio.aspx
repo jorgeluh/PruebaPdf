@@ -14,7 +14,9 @@
             <asp:ListItem Value="1">Archivo 1</asp:ListItem>
             <asp:ListItem Value="2">Archivo 2</asp:ListItem>
             <asp:ListItem Value="3">Archivo complejo</asp:ListItem>
-        </asp:DropDownList> <asp:Button ID="ButtonVer" runat="server" Text="Ver" OnClick="ButtonVer_Click" />
+        </asp:DropDownList>
+        <asp:CheckBox runat="server" ID="CheckBoxPermitirImpresion"></asp:CheckBox> Permitir impresión <br />
+        <asp:Button ID="ButtonVer" runat="server" Text="Ver" OnClick="ButtonVer_Click" />
         <div style="margin: 20px;">
             <cp:VisorPdf ID="VisorPdf" Alto="600" Ancho="1000" runat="server" />
         </div>

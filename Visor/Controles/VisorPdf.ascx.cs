@@ -12,6 +12,18 @@
 
         public int Ancho { get; set; }
 
+        public bool PermitirImpresion
+        {
+            get
+            {
+                return (bool)(this.Session["PermitirImpresion"] ?? false);
+            }
+            set
+            {
+                this.Session["PermitirImpresion"] = value;
+            }
+        }
+
         public string Archivo
         {
             get { return archivo; }
